@@ -24,7 +24,7 @@ enableEmoji = false
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Where I journal about my walk of life"
+description = "Where I jot down random thoughts"
 title404 = "Nothing's here!"
 
 [params.assets]
