@@ -1,5 +1,5 @@
 ---
-title: "Loremipsum"
+title: "Lorem ipsum"
 date: 2020-04-03T14:58:54+07:00
 draft: false
 ---
