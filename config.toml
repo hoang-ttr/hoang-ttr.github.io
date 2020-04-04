@@ -61,8 +61,8 @@ enable = true
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","sidebar_menu"]
-footer = ["social_menu"]
+sidebar = ["about", "sidebar_menu", "social_menu"]
+footer = []
 
 [params.opengraph.facebook]
 #admins = [] # array of Facebook IDs
@@ -133,17 +133,17 @@ page = "/:slug/"
 
 [menu]
     [[menu.main]]
-    identifier = "repository"
+    #identifier = "repository"
     name = "Repo"
     weight = -10
     url = "https://github.com/thieenq/thieenq.github.io"
 
     [[menu.main]]
-    identifier = "about"
-    name = "about"
+    #identifier = "About"
+    name = "About"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
-    url = "/about/"
+    url = "/about.html"
 
 [blackfriday]
 hrefTargetBlank = true
