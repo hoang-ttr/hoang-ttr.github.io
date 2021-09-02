@@ -10,7 +10,7 @@ copyright = "&copy; 2020 Hoang Tran"
 theme = "pickles"
 custom_css = "/static/css/custom.css"
 
-#googleAnalytics = "Your Google Analytics tracking id"
+googleAnalytics = "G-0EK01MVT08"
 
 enableRobotsTXT = true # generate robots.txt
 
