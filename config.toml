@@ -14,13 +14,14 @@ custom_css = "/static/css/custom.css"
 
 enableRobotsTXT = true # generate robots.txt
 
-[Taxonomies]
+[taxonomies]
+    category = "categories"
     tag = "tags"
 
 [params]
   paginate = 10
   github = "thieenq"
-  linkedin = "tthoang171"
+  linkedin = "thieenq"
 #   twitter = "Your Twitter username"
 #   facebook = "Your Facebook username"
 #   instagram = "Your Instagram username"
@@ -44,7 +45,7 @@ enableRobotsTXT = true # generate robots.txt
   authorwebsite = "thieenq.github.io"
   avatar = "/images/avatar.jpg"
   contact = "mailto:thienhoang1608@gmail.com"
-  bio = "I do data"
+  bio = "this blog is my attempt at writing"
   logo = "/images/logo.png" # Logo image. This is displayed ogp image.
   favicon = "/favicon.ico"
 
