@@ -7,10 +7,11 @@ title = "Backlog Overload"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = "&copy; 2020 Hoang Tran"
 
+googleAnalytics = "G-0EK01MVT08"
+
 theme = "pickles"
 custom_css = "/static/css/custom.css"
 
-googleAnalytics = "G-0EK01MVT08"
 
 enableRobotsTXT = true # generate robots.txt
 
