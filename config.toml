@@ -40,7 +40,7 @@ enableRobotsTXT = true # generate robots.txt
 #   medium = "Your Medium username"
 #   disqus = "HT"
 
-  subtitle = "data, tech, travel, opinions"
+  subtitle = "data tech, travel, opinions"
 
   author = "Hoang Tran"
   authorwebsite = "thieenq.github.io"
