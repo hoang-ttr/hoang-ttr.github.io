@@ -46,7 +46,7 @@ enableRobotsTXT = true # generate robots.txt
   authorwebsite = "thieenq.github.io"
   avatar = "/images/avatar.jpg"
   contact = "mailto:thienhoang1608@gmail.com"
-  bio = "this blog is my attempt at writing"
+  bio = "Data ninja by day, actual ninja by night. Fight against injustice and bad charts."
   logo = "/images/logo.png" # Logo image. This is displayed ogp image.
   favicon = "/favicon.ico"
 
