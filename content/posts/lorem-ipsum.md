@@ -1,6 +1,7 @@
 ---
 title: "Lorem ipsum"
-date: 2020-04-15T18:42:15+07:00
+date: 2020-01-11
+tags: ['pilot', 'test']
 draft: false
 ---
 
