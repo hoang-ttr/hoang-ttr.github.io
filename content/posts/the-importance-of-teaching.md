@@ -1,17 +1,28 @@
 ---
-title: "The Importance of Teaching"
-date: 2020-04-15T20:06:13+07:00
-draft: false
+title: "The importance of teaching"
+date: 2020-04-15
+tags: ['teaching', 'english']
+draft: true
 ---
 
-From a young age, we were taught by many people about many things. But rarely did we get taught on how to teach others, unless you major in pedagogy. I has always been a autodidact, so It fascinate me how others teach themseleves.
+This is a topic that I hold dear in my heart.
 
-During univeristy, I got a girlfriend, and somehow we always ended up study together even though she and I were in different departments. Naturally, I would have to study twice for both of our parts. Engineering was exceptionally hard, grumpy professors did not make it any easier. My friends and I usually had to crammed a whole semester worth of content 8 hours before the exam. If we were lucky, we might get just enought to pass, some did not get such privileges.
+We're been taught many things, by many people. But rarely did we learn on how to teach others, unless you major something like pedagogy. There's a point in our life where we're expected to convey knowledge. Involutary deed with lacking skill is a recipe for disaster.
 
-Eventually, we noticed that It wasn't any good studying on our own. We then decided to team up and divide the materials into parts, each one would handle one or multiple parts depending on their ability. It was during this time that I got to see how others learned, how they taught one another. I felt more pleasure teaching others what I know than actually sitting down and study. To my surprise, I learnt better that way. From then on, whenever we were preparing for midterms or finals, I would go out of my way to help others in need. 
+The lesson that you would remember most is either the one that's life-changing or sleep-inducing. We're not paying our teachers enough, at least from where I'm from, consequently, they either do it our of passion or just don't care enough to even try. I'm no policy-maker, but we'd do our teachers, and society a favour, if we 
 
-After graduation, I got a fulltime position in engineering, but I had always wanted to use my English to something better than searching weird stuff on ~~xvideos~~ reddit. I applied for a ESL teaching position. The work was very satisfying. My students were from different age groups and from all walks of life. When someone tries their hardest and you see their progress bit by bit, I knew that i would do it for a long time. Even my teaching was recognised by my supervisor and I got to hold a session every week just sharing about English in general. The effort paid off when I got promoted for what I'd done for the team.
+> ## *"Teaching is the greatest act of optimism."* </br>
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *- Colleen Wilcox*
 
-But at the same time, juggling between a fulltime job and teaching started to take a toll on my health. I had to stop my part-time gig to focus more on my main career. But since then I've made plans to open classes again when I retire from the corporate world.
+Now I'm not say that everyone should be e proper teacher, making a living out of it. But humanity would progress faster if everyone knows how to do it a little bit better.
 
-People define success in many ways, it's a subjective concept. And to me, I would rather leave behind a legacy where people can benefit from my work long after I'm gone than chasing that materialistic life our society tries so hard to impose upon us.
+![A class of mine](/images/posts/article_1.jpg)
+|:--:|
+| *intimate environment makes people feel more confident. Image by authour* |
+
+#### Key takeaway
+* Be kind, people feel vulnerable when they're showing that they don't know something
+* Be inclusive, especially if you hold a class, make sure that everyone feel heard
+* Be honest, both in the materials that you use and how you respond when things go south
+
+I'm no longer in the business of teaching English, but that doesn't mean I'm not involved in teaching anymore. That new intern on their first day at work, that one friend who's seeking your expertise, your familiy, your kids. Next time you find yourself in a position of a teacher/coach/guide, be more thoughtful of how you treat the other person.
