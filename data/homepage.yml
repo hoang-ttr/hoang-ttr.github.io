@@ -1,14 +1,14 @@
 # homepage
 homepage:
   head:
-    title: "Home | Elliot"
+    title: "Home | Hoang"
 # showcase
 showcase:
   enable: true
-  title: Hi! I’m Elliot
+  title: Hi! I’m Hoang
   subtitle: I do data
   description: >
-    I'm currently a lead analytics engineer at <a target='_blank' href='https://joonsolutions.com/'>Joon Solutions</a>, a data analytics consulting company in Vietnam.
+    I'm currently an engineer at <a target='_blank' href='https://hydrolix.iio/'>Hydrolix</a>, a streaming data lake platform.
     My expertise lies in the realm of the Modern Data Stack.
     <p class="lead">
     Data ninja by day, actual ninja by nights.
@@ -29,10 +29,10 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/thieenq/"
+      URL: "https://www.linkedin.com/in/haydenttran/"
 
     - icon: "github"
-      URL: "https://github.com/thieenq"
+      URL: "https://github.com/hoang-ttr"
 
     - icon: "medium"
       URL: "https://medium.com/@thieenq"

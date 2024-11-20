@@ -1,4 +1,4 @@
-baseURL = "https://thieenq.github.io/"
+baseURL = "https://hoang-ttr.github.io/"
 languageCode = "en-uk"
 theme = "raditian"
 
@@ -59,17 +59,17 @@ theme = "raditian"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"] #, "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"] #, "newsletter"
 
   googleTagManagerID = "G-KHH07HY8H0" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Elliot"
+    text1 = "Hayden"
     text2 = "Tran"
 
   [params.footer]
-      copyright = "© Elliot Tran. All rights reserved."
+      copyright = "© Hayden Tran. All rights reserved."
 #      [params.footer.radity_logo]
 #        x = "img/general/design-and-code-radity.png"
 #        _2x = "img/general/design-and-code-radity@2x.png"
-#        alt = "Design & Code - Elliot"
+#        alt = "Design & Code - Hayden Tran"
