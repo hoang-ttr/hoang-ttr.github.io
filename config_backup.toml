@@ -1,0 +1,92 @@
+baseURL = "https://thieenq.github.io/"
+relativeURLs = true
+uglyURLs = true
+
+title = "Backlog Overload"
+
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = "&copy; 2020 Hoang Tran"
+
+googleAnalytics = "G-0EK01MVT08"
+
+#theme = "pickles"
+theme = "raditian"
+custom_css = "/static/css/custom.css"
+
+
+enableRobotsTXT = true # generate robots.txt
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[params]
+  paginate = 10
+  github = "thieenq"
+  linkedin = "thieenq"
+  medium = "thieen"
+#   twitter = "Your Twitter username"
+#   facebook = "Your Facebook username"
+#   instagram = "Your Instagram username"
+#   googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
+#   gitlab = "Your GitLab username"
+#   npm = "Your npm username"
+#   codepen = "Your CodePen username"
+#   dribbble = "Your Dribbble username"
+#   fivehundredpx = "Your 500px username" # 500px
+#   flickr = "Your Flickr username"
+#   pinterest = "Your Pinterest username"
+#   tumblr = "Your Tumblr username"
+#   vimeo = "Your Vimeo username"
+#   youtube = "Your YouTube username"
+#   disqus = "HT"
+
+  subtitle = "data tech, travel, opinions"
+
+  author = "Hoang Tran"
+  authorwebsite = "thieenq.github.io"
+  avatar = "/images/avatar.jpg"
+  contact = "mailto:thienhoang1608@gmail.com"
+  bio = "Data ninja by day, actual ninja by night. Fight against injustice and bad charts."
+  logo = "/images/logo.png" # Logo image. This is displayed ogp image.
+  favicon = "/favicon.ico"
+
+[Permalinks]
+    post = "/:slug"
+
+[menu]
+    [[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+    [[menu.main]]
+    weight = 2
+    url = "/about.html"
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"
+
+languageCode = "en-uk"
