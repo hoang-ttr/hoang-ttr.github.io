@@ -1,4 +1,4 @@
-name: CI
+name: cicd_deploy_gh_page
 on:
   push:
     branchs:
@@ -8,27 +8,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm install
 
-      - name: build the artifacts
+      - name: Build the site artifacts
         run: npm run build
 
       - name: deploy artifacts to default branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
           publish_dir: _site
           publish_branch: master
+          install_dependencies: true
           # publish_branch: gh-pages
           # cname: example.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: ${{ github.event.head_commit.message }}
-          install_dependencies: true
