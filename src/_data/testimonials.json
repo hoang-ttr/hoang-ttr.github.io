@@ -1,0 +1,12 @@
+{
+  "title": "OPINION FROM REAL PEOPLE",
+  "des": "What clients says about our services.",
+  "opinion":[
+    {
+      "name": "Lorem",
+      "dig": "CEO, ipsum",
+      "img": "/assets/images/testimonial/user-thumb-one.jpg",
+      "comment": "Lorem ipsum"
+    }
+  ]
+}

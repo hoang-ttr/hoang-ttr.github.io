@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>HT | Data Consultancy</title>
+    <meta name="generator" content="Eleventy">
+    <!--Meta For No Index-->
+    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="/assets/vendor/slick/slick.css" />
+    <link rel="stylesheet" href="/assets/vendor/slick/slick-theme.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css" />
+    <!-- Stylesheets -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/images/favIcon.png" type="image/x-icon" />
+    <link rel="icon" href="/assets/images/favIcon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+  {% block navbar %}
+    <nav class="navbar navbar-expand-lg site-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="{{nav.navLogo}}" alt="nav-logo" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#sitenavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="sitenavbar">
+          <ul class="navbar-nav ml-auto main-nav">
+            {% for navLink in nav.navLinks %}
+            <li class="nav-item">
+              {% if navLink == "home" %}
+                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+              {% else %}
+                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
+              {% endif %} 
+            </li>
+            {% endfor %}
+            <li class="nav-item">
+              <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink}}">
+                <span class="btn-area">
+                  <span data-text="{{nav.navBtnText}}">
+                    {{nav.navBtnText}}
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  {% endblock %}
+
+  {% block content %}
+    {{content | safe}}
+  {% endblock %}
+
+  {% block workTogether %}
+    <section class="site-cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="site-cta-title">{{workTogether.heading}}</h1>
+            <ul class="site-cta-buttons">
+              <li>
+                <a href="/{{workTogether.submitBtn.btnLink}}" class="btn btn-secondary">
+                  <span class="btn-area">
+                    <span data-text="{{workTogether.submitBtn.btnText}}">
+                      {{workTogether.submitBtn.btnText}}
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/{{workTogether.convBtn.btnLink}}" class="btn btn-primary">
+                  <span class="btn-area">
+                    <span data-text="{{workTogether.convBtn.btnText}}">
+                      {{workTogether.convBtn.btnText}}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
+
+  {% block footer %}
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="site-footer-logo">
+              <a href="/">
+                <img src="{{footer.footerLogo}}" alt="logo-footer">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="site-footer-widget">
+              <h5 class="site-footer-widget-title">{{footer.contactsHeading}}</h5>
+              <p class="site-footer-widget-description">
+              {% for contactInfo in footer.contactsInfo %}
+                <a href="{{contactInfo.link}}">{{contactInfo.text}}</a>
+                <br>
+              {% endfor %}
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="site-footer-widget">
+              <h5 class="site-footer-widget-title">{{footer.siteMapHeading}}</h5>
+              <ul class="site-footer-widget-links">
+                {% for siteMap in footer.siteMap %}
+                 <li>
+                  <a href="/{{siteMap.link}}">{{siteMap.text}}</a>
+                 </li> 
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="site-footer-widget">
+              <h5 class="site-footer-widget-title">{{footer.socialHeading}}</h5>
+              <ul class="site-footer-widget-links">
+                {% for socialMedia in footer.socialMedia %}
+                <li><a href="/{{socialMedia.link}}">{{socialMedia.text}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="site-footer-widget">
+              <h5 class="site-footer-widget-title">{{footer.brandHeading}}</h5>
+              <p class="site-footer-widget-description">
+              {% for brandMotto in footer.brandMotto %}
+                - {{brandMotto}}
+                <br>
+              {% endfor %}
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <a href="#top" class="site-footer-widget-top">
+              <img src="{{footer.back2topIcon}}" alt="back-to-top">
+              <p>
+                {{footer.customerComment}}
+              </p>
+            </a>
+          </div>
+          <div class="col-12">
+            <div class="site-footer-copyright text-center my-3">
+              <p>© Copyright 2024 - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  {% endblock %}
+    <!-- <script src="js/vendor.js"></script> -->
+    <script src="/assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
+

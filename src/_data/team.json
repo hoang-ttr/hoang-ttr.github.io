@@ -1,0 +1,24 @@
+{
+  "title": "team that makes the difference.",
+  "teamMembers":[
+    {
+      "name": "HOANG TRAN (HAYDEN)",
+      "dig": "Data Consultant",
+      "img": "/assets/images/team/team-member-one.jpg",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}
