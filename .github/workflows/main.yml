@@ -25,3 +25,4 @@ jobs:
           # publish_branch: gh-pages
           # cname: example.com
           commit_message: ${{ github.event.head_commit.message }}
+          install_dependencies: true
