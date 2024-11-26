@@ -3,29 +3,25 @@ on:
   push:
     branchs:
       - hugo_gen
+
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
         with:
           submodules: true
 
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-          extended: true
-
       - name: Build
-        run: hugo
-        
+        uses: TartanLlama/actions-eleventy@master
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: _site
           publish_branch: master
-        #   cname: example.com
+          # publish_branch: gh-pages
+          # cname: example.com
           commit_message: ${{ github.event.head_commit.message }}
