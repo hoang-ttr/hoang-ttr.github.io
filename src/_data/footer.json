@@ -1,0 +1,61 @@
+{
+  "footerLogo": "/assets/images/logo-footer.png",
+
+  "contactsHeading": "Contact Info",
+  "contactsInfo":[
+    {
+      "link":"https://maps.app.goo.gl/cFYSjUtEcVdhqA9h9",
+      "text":"Le Van Sy St., Ward 2, Tan Binh, HCMC, Vietnam"
+    },
+    {
+      "link":"tel:409-896-1444",
+      "text":"409-896-1444"
+    },
+    {
+      "link":"mailto:",
+      "text":"thienhoang1608@gmail.com"
+    }
+  ],
+
+  "siteMapHeading":"Sitemap",
+  "siteMap":[
+    {
+      "link":"about",
+      "text":"About"
+    },
+    {
+      "link":"portfolio",
+      "text":"Projects"
+    },
+    {
+      "link":"privacy-policy",
+      "text":"Privacy Policy"
+    },
+    {
+      "link":"terms-conditions",
+      "text":"Terms & Condition"
+    }
+  ],
+
+  "socialHeading":"Social Media",
+  "socialMedia":[
+    {
+      "link":"https://www.linkedin.com/in/haydenttran/",
+      "text":"LinkedIn"
+    },
+    {
+      "link":"https://overlysimple.substack.com/s/all-things-data",
+      "text":"Substack"
+    },
+    {
+      "link":"https://medium.com/@hoangtt",
+      "text":"Medium"
+    }
+  ],
+  
+  "brandHeading":"We help data teams:",
+  "brandMotto":["design data architecture","optimise infrastructure expense","extract insights from data"],
+
+  "back2topIcon":"/assets/images/to-top.svg",
+  "customerComment":"Take me to the top"
+}
