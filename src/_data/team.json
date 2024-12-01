@@ -4,15 +4,15 @@
     {
       "name": "HOANG TRAN (HAYDEN)",
       "dig": "Data Consultant",
-      "img": "/assets/images/team/team-member-one.jpg",
+      "img": "/assets/images/team/team-member-one.jpeg",
       "social":[
         {
           "icon": "medium",
-          "link": "#"
+          "link": "https://medium.com/@hoangtt"
         },
         {
           "icon": "linkedin",
-          "link": "#"
+          "link": "https://www.linkedin.com/in/haydenttran/"
         }
       ]
     }
