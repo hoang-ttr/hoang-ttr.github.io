@@ -2,7 +2,6 @@ name: cicd_deploy_gh_page
 on:
   push:
     branchs:
-      - hugo_gen
       - main
 
 jobs:
