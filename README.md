@@ -1,10 +1,15 @@
-This is a Hugo development branch, output will be pushed to the master branch to be used for the Github page
+Personal portfolio using GitHub Page and built with 11ty
 
+# Development
 
-clone to your local machine
+1. build the site artifacts
+```sh
+eleventy
+```
 
-git clone --branch hugo_gen --recurse-submodules https://github.com/thieenq/thieenq.github.io.git
+2. spin up a local site
+```sh
+eleventy --serve
+```
 
-deploy the website on your local machine
-
-hugo server -D
+3. go to `localhost:8080` to view the site
