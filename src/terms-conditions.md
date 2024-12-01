@@ -2,22 +2,17 @@
 layout: layouts/termsConditions.njk
 title: "Terms & Conditions"
 ---
-#### What is Lorem Ipsum?
+#### Disclaimer, legal information & terms and conditions of use
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+Sunday, 1st Dec. 2024
+Use of this website is subject to the following terms and conditions. You are deemed to have taken cognisance thereof and to accept the general terms and conditions without reservation.  
 
-#### What is Lorem Ipsum?
+#### Purpose of the website
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+The website contains information on the general organisation of and the services offered by the rightful owner of this website. Our website also contains case-based content for informational purposes for visitors to the website. The website aims to offer simple, fast and improved access to the information that is available in this field, while it also contains links to other websites that belong to other companies, government services or institutions that make information available. These companies, government services and institutions are responsible for the information contained on their websites. All the information contained on our website is of a general nature, unless expressly stated otherwise.
 
-#### What is Lorem Ipsum?
+The information is not specifically tailored to a person or entity, and it cannot be considered as personal, professional or legal advice or the equivalent thereof. In order to obtain specific or personal advice, please consult the relevant departments of the competent level of government or specialist professionals or companies for professional advice. Any information, documents and/or legislative texts available on or via the website cannot be deemed to be officially certified texts. Only those texts that are published in the Belgian Official Journal or the Official Journal of the European Union are deemed to be officially certified and take precedence. The content of this website (including hyperlinks) can be modified, changed, supplemented or removed at any time without prior notice for the purpose of updating it according to the latest developments and the applicable legislation.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+#### Protection of personal data
 
-#### What is Lorem Ipsum?
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-#### What is Lorem Ipsum?
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+Insofar as personal information is requested, we undertakes to handle this data in accordance with the provisions of the GDPR and CCPA on the protection of privacy with regard to the processing of personal data. we undertakes to in any event only use such data for the purpose for which it was requested and not to release it to third parties. we engages the best possible security measures in this respect so as to prevent third party-abuse of your personal data.
