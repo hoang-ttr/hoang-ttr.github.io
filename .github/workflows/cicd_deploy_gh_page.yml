@@ -3,6 +3,7 @@ on:
   push:
     branchs:
       - hugo_gen
+      - main
 
 jobs:
   build:
