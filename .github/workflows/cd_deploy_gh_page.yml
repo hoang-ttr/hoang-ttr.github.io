@@ -1,4 +1,4 @@
-name: cicd_deploy_gh_page
+name: cd_deploy_gh_page
 on:
   push:
     branchs:
@@ -20,6 +20,8 @@ jobs:
 
       - name: Build the site artifacts
         run: npm run build
+        env:
+          PERSONAL_PHONE_NUMBER: ${{ secrets.PERSONAL_PHONE_NUMBER }}
 
       - name: Upload static files as artifact
         id: deployment
