@@ -4,9 +4,13 @@
   [
     "/assets/images/clients/dbt.png",
     "/assets/images/clients/apache-spark.png",
-    "/assets/images/clients/bigquery.png",
-    "/assets/images/clients/snowflake.png",
     "/assets/images/clients/apache-airflow.png",
-    "/assets/images/clients/terraform.png"
+    "/assets/images/clients/google-bigquery.png",
+    "/assets/images/clients/snowflake.png",
+    "/assets/images/clients/fivetran.png",
+    "/assets/images/clients/airbyte.png",
+    "/assets/images/clients/google-looker.png",
+    "/assets/images/clients/terraform.png",
+    "/assets/images/clients/gcp.png"
   ]
 }
